@@ -1,0 +1,213 @@
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+:root{
+  /*Color Scheme*/
+  --color1: #663366;
+  --color2: #9d2d7f;
+  --color3: #c3247f;
+  --color4: #dd4681;
+  --color5: #ea5726;
+  --color6: #ef8725;
+  --color7: #f1d262;
+
+  /*Color Scheme*/
+  --pri: rgb(241, 210, 95);
+  --sec: rgb(221, 70, 128);
+  --try: rgb(102, 51, 102);
+
+  --w: rgb(255, 255, 255);
+  --b: rgb(0, 0, 0);
+  --main-color: white;
+  --faded-main: rgba(255, 255, 255, 0.7);
+  --sec-color: rgb(26, 26, 26);
+  --faded-sec: rgba(26, 26, 26, 0.7);
+
+
+  /*Font Sizes*/
+  --h1: 2rem;
+  --h2: 1.6rem;
+  --h3: 1.3rem;
+  --h4: 1rem;
+  /* --h1: 60px;
+  --h2: 30px;
+  --h3: 20px;
+  --h4: 16px; */
+
+  /*Fonts*/
+  --font: 'Bahnschrift', sans-serif;
+
+  /*Margins and padding*/
+  --margin-size: 0.2rem;
+  --padding-size: 0.4rem;
+
+  /*Box Shadow*/
+  --bs: 0px/*left offset*/ 0px/*top offset*/ 10px/*Blur range*/ 1px/*Allroud coverage*/;
+
+  --nav-height: 4rem;
+  --footer-height: 10vh;
+  --border-style: var(--try) calc(var(--h2) - calc(var(--h2) / 1.13)) solid;
+  --gradient: linear-gradient(-45deg, var(--color1),var(--color2),var(--color3),var(--color4),var(--color5),var(--color6));;
+}
+*{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: var(--b2);
+  font-family: var(--font);
+  margin: 0px;
+  padding: 0px;
+  background: url("../img/backgrounds/bg1.jpg") no-repeat center center fixed;
+  background: var(--gradient);
+  /* background: var(--b); */
+  background-size: cover;
+  min-height: 90vh;
+}
+.main-container{
+  min-height: 70vh;
+}
+h2{
+  margin: 0%;
+  padding: 0%;
+  margin-block:0px;
+  margin-inline: 0px;
+}
+.hide-object{
+	visibility: hidden;
+}
+.show-object{
+	visibility: visible;
+}
+.main-container{
+  margin-top: calc(var(--nav-height) + 1.5rem);
+}
+/*GENERAL BUTTONS*/
+.btn{
+  background: var(--sec);
+  color: var(--try);
+  font-family: var(--main-font);
+  text-transform: capitalize;
+  padding: calc(var(--padding-size) / 2) var(--padding-size);
+  border: calc(var(--padding-size) / 3) solid var(--try);
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+.btn:hover{
+  background: var(--try);
+  color: var(--sec);
+  border: calc(var(--padding-size) / 3) solid var(--sec);
+}
+.btn:disabled{
+  border: none;
+  background-color: grey;
+  color: var(--pri);
+  border-bottom: solid 3px var(--sec-color);
+  padding: calc(var(--padding-size) / 2) var(--padding-size);
+}
+.divider{
+  width: 100%;
+  height: 0.1rem;
+  background: var(--try);
+}
+.hide{
+  visibility: hidden;
+}
+.show{
+  visibility: visible;
+}
+.col-three-mid{
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+}
+.col-two-left{
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+.row-repeat{
+  display: grid;
+  grid-template-columns: repeat(max-content, 1fr);
+}
+.title-txt{
+  text-align: center;
+  font-size: var(--h1);
+  color: var(--try);
+}
+.title-txt-span{
+  color: var(--sec);
+}
+.section-body{
+  background: rgba(255, 255, 255, 0.9);
+  margin: 2vh 1vw;
+  padding: var(--padding-size);
+  align-items: center;
+  /* min-height: 90vh; */
+}
+
+/* -------------------------Form-------------------------- */
+.myForm{
+  background: var(--w);
+  /* min-width: 30vw; */
+  width: 550px;
+  padding: calc(var(--padding-size) * 2);
+  position: relative;
+}
+.form-title{
+  padding: 0px;
+  margin: calc(var(--padding-size) * 2) 0px;
+  font-size: var(--h1);
+  color: var(--pri);
+  text-align: center;
+}
+.field-combo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: var(--padding-size);
+}
+.field-label{
+  display: grid;
+  grid-template-rows: max-content max-content;
+  margin-top: calc(var(--padding-size) * 2);
+  color: var(--sec);
+}
+.form-btns{
+  /* display: grid;
+  grid-template-rows: max-content max-content; */
+  margin-top: calc(var(--padding-size) * 2);
+}
+.myForm input, .myForm textarea, .radio-btn-container, .nationalities{
+  font-family: var(--font);
+  width: 100%;
+  padding: var(--padding-size);
+  background: var(--pri);
+  border: calc(var(--padding-size) / 3) solid var(--sec);
+  box-sizing: border-box;
+  color: var(--try);
+}
+.myForm textarea{
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 20vh;
+}
+/* @media screen and (max-width: 700px) {
+  .myForm{
+    max-width: 90vw;
+  }
+} */
+@media screen and (min-width: 1024px){ 
+  .myForm{
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) { 
+  .myForm{
+    width: 90.1vw;
+  }
+}
+
+@media screen and (max-width: 700px) { 
+  .myForm{
+    width: 90vw;
+  }
+}

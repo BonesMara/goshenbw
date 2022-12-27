@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/navbar.css"/>
+    <link rel="stylesheet" href="css/gallery.css"/>
+    <title>Gallery</title>
+  </head>
+  <header id="navbar">
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/favicon/logo.png" alt="Logo">
+          Goshen Foundation
+        </a>
+      </div>
+      <div class="wSpace"></div>
+      <div id="navbar-menu">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="works.html">Projects</a></li>
+          <li><a href="donations.html">Donations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button type="button" id="navbar-toggle" class="navBtn" aria-expanded="false">
+          <svg fill="var(--try)" class="hamburger" width="42" height="37">
+            <rect class="line top" width="35" height="5" x="4" y="6" rx="3">
+            </rect>
+            <rect class="line middle" width="35" height="5" x="4" y="17" rx="3">
+            </rect>
+            <rect class="line bottom" width="35" height="5" x="4" y="28" rx="3">
+            </rect>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <main class="main-container">
+      <div class="gallery-pics-container section-body">
+        <h1 class="title-txt"><span class="title-txt-span">Gaborone </span>Fundraising compaign</h1>
+        <div id="modal" class="modal">
+          <div class="modal-container">
+            <img id="current" src="" alt="">
+          </div>
+        </div>
+        <div id="viewMore" class="viewMore">
+          <div id="viewMore-container" class="viewMore-container">
+            <img id="curr" src="" alt="">
+            <p id="more-info">
+              <span id="pHeading"></span><br>
+            </p>
+          </div>
+        </div>
+        <div class="imgs">
+        </div>
+      </div>
+      <!-- <div class="gallery-pics-container section-body">
+        <h1 class="title-txt"><span class="title-txt-span">Jwaneng </span>awareness compaign</h1>
+        <div id="modal" class="modal">
+          <div class="modal-container">
+            <img id="current" src="" alt="">
+          </div>
+        </div>
+        <div class="imgs">
+          <div class="img-container">
+            <img src="img/backgrounds/bg1.jpg" alt="">
+            <div class="photo-overlay">
+              <h1>Click to enlarge</h1>
+              <p class="gallery-pic-description">
+                Seminar held in Lobatse
+              </p>
+            </div>
+          </div>
+          <div class="img-container">
+            <img src="img/favicon/logoF.png" alt="">
+            <div class="photo-overlay">
+              <h1>Click to enlarge</h1>
+              <p class="gallery-pic-description">
+                Donation compaign held over a week in august
+              </p>
+            </div>
+          </div>
+          <div class="img-container">
+            <img src="img/backgrounds/bg1.jpg" alt="">
+            <div class="photo-overlay">
+              <h1>Click to enlarge</h1>
+              <p class="gallery-pic-description">
+                Goshen annivesary celebrations
+              </p>
+            </div>
+          </div>
+          <div class="img-container">
+            <img src="img/backgrounds/bg2.jpg" alt="">
+            <div class="photo-overlay">
+              <h1>Click to enlarge</h1>
+              <p class="gallery-pic-description">
+                Giving groceries to goshen children
+              </p>
+            </div>
+          </div>
+          <div class="img-container">
+            <img src="img/backgrounds/bg1.jpg" alt="">
+            <div class="photo-overlay">
+              <h1>Click to enlarge</h1>
+              <p class="gallery-pic-description">
+                Meeting over the annual goals for goshen
+              </p>
+            </div>
+          </div>
+          <div class="img-container">
+            <img src="img/backgrounds/bg2.jpg" alt="">
+            <div class="photo-overlay">
+              <h1>Click to enlarge</h1>
+              <p class="gallery-pic-description">
+                Founder receiving donations from company 1
+              </p>
+            </div>
+          </div>
+          <div class="img-container">
+            <img src="img/backgrounds/bg1.jpg" alt="">
+            <div class="photo-overlay">
+              <h1>Click to enlarge</h1>
+              <p class="gallery-pic-description">
+                Seminar held in Lobatse
+              </p>
+            </div>
+          </div>
+          <div class="img-container">
+            <img src="img/backgrounds/bg2.jpg" alt="">
+            <div class="photo-overlay">
+              <h1>Click to enlarge</h1>
+              <p class="gallery-pic-description">
+                Seminar held in Lobatse
+              </p>
+            </div>
+          </div>
+          <div class="img-container">
+            <img src="img/backgrounds/bg1.jpg" alt="">
+            <div class="photo-overlay">
+              <h1>Click to enlarge</h1>
+              <p class="gallery-pic-description">
+                Seminar held in Lobatse
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </main>
+    <footer>
+      <div class="stripe-container">
+        <div class="stripes">
+          <div class="stripe s1">
+            <h1 class="ftext footer-header">
+              <img class="footer-logo-icon" src="img/favicon/logo.png" alt="Logo">
+              Goshen Foundation
+            </h1>
+            <p class="ftext footer-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ducimus nam nobis quis non omnis, assumenda vel aliquid quod porro qui deserunt aliquam iste sit  magni tempore error tenetur cumque!
+            </p>
+            <p class="ftext footer-footnote">
+              <span class="ftext footer-label">Founder: </span>Lesedi G Kegakilwe<br>
+              <span class="ftext footer-label">Co-Founder: </span>Dorothy Froese
+            </p>
+          </div>
+          <div class="stripe s2">
+            <h1 class="ftext footer-header3">Contacts</h1>
+            <p class="ftext footer-footnote3">
+              <span class="ftext footer-label3">Call: </span><br>
+              + 267 74 438 248<br>
+              + 267 71 536 937<br>
+              + 267 75 918 530<br><br>
+              <span class="ftext footer-label3">Email: </span><br>
+              kegakilwelesedi50@gmail.com<br>
+              dorothyfroesel@gmail.com<br><br>
+            </p>
+          </div>
+          <div class="stripe s3">
+            <h1 class="ftext footer-header3">Address</h1>
+            <p class="ftext footer-footnote3">
+              P O Box 402661<br>
+              Gaborone, Botswana
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/gallery.js"></script>
+  </body>
+</html>

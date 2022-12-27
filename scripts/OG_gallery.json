@@ -1,0 +1,135 @@
+[
+  {
+    "id": 28082,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "Moshopa conference",
+    "type": "normal",
+    "description": "Conference held in Moshopa to discuss the next steps for Goshen"
+  },
+  {
+    "id": 3855,
+    "image": "img/favicon/logo.png",
+    "name": "Goshen Logo",
+    "type": "big",
+    "description": "Updated company logo"
+  },
+  {
+    "id": 21385,
+    "image": "img/backgrounds/bg1.jpg",
+    "name": "Maruapula Sponsered Walk",
+    "type": "normal",
+    "description": "Walk to help raise funds"
+  },
+  {
+    "id": 3855,
+    "image": "img/favicon/logoF.png",
+    "name": "Full Goshen logo",
+    "type": "high",
+    "description": "The new and improved Goshen, Here to serve"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "Founder",
+    "type": "normal",
+    "description": "Goshen founder snapped at Gaborone"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 6"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 7"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "big",
+    "description": "Test photo 8"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 9"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 10"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 11"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 12"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 13",
+    "type": "normal",
+    "description": "Test photo 13"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 14"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "high",
+    "description": "Test photo 15"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 16"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 17"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "normal",
+    "description": "Test photo 18"
+  },
+  {
+    "id": 3855,
+    "image": "img/backgrounds/bg2.jpg",
+    "name": "NIKE AIR FORCE 1",
+    "type": "wide",
+    "description": "Test photo 19"
+  }
+]

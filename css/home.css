@@ -1,0 +1,71 @@
+.welc-txt{
+  text-align: center;
+  font-size: 4rem;
+  color: var(--try);
+}
+.welc-txt-span{
+  color: var(--sec);
+}
+.welc-img{
+  height: 65vh;
+  border-right: none;
+  pointer-events: none;
+  padding-bottom: var(--padding-size);
+}
+
+.note-lines-container{
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--padding-size) * 10);
+  margin-top: calc(var(--padding-size) * 10);
+}
+.note-line{
+  /* padding: calc(var(--padding-size) * 1); */
+  color: var(--pri);
+}
+.note-conpanion{
+  position: relative;
+  background: var(--try);
+  padding: calc(var(--padding-size) * 2);
+  border-radius: calc(var(--padding-size) * 4);
+  width: inherit;
+}
+.note-conpanion p{
+  margin: 0%;
+  padding: 0%;
+}
+.pic-cont{
+  background: var(--sec);
+  padding: calc(var(--padding-size) * 2);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 85%;
+}
+.pic-cont img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+/* 
+//Laptop
+@media screen and (min-width: 1024px) {
+  body {
+    background: yellow;
+  }
+}
+//Tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background: red;
+  }
+  .note-conpanion{
+    width: 85vw;
+  }
+} 
+*/
+/*Mobile*/
+@media screen and (max-width: 700px) {
+}

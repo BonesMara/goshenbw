@@ -1,0 +1,86 @@
+.contact-form{
+  min-width: fit-content;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.social-links{
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+.co-link{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  background: var(--pri);
+  border-radius: 50%;
+  /* background: url("../img/favicon/icons/whatsapp.png") no-repeat center center fixed; */
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-left: var(--padding-size);
+}
+.co-link:hover::before{
+  content: attr(id);
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.85em;
+  background: var(--sec);
+  color: var(--try);
+  padding: var(--padding-size);
+  border-radius: var(--padding-size);
+  width: fit-content;
+  position: absolute;
+  bottom: 105%;
+  left: 0%;
+}
+.co-link img{
+  height: inherit;
+}
+.radio-btn-container{
+  background: var(--pri);
+  display: flex;
+  gap: calc(var(--padding-size) * 2);
+  align-content: center;
+  justify-items: center;
+}
+.radio-label{
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  place-content: center;
+  column-gap: calc(var(--padding-size) * 0.5);
+}
+input[type="radio"]{
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+input[type="radio"]::before {
+  content: '';
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--sec);
+}
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+#country-code-field{
+  display: none;
+  transition: display ease-in 500ms;
+}
+.myForm input:checked {
+  border: calc(var(--padding-size) / 3) solid var(--sec);
+}
+
+@media screen and (max-width: 700px) {
+  .contact-form{
+    min-width: fit-content;
+  }
+}
