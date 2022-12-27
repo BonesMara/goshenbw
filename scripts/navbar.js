@@ -1,4 +1,4 @@
-fetch('https://github.com/BonesMara/goshenbw/blob/main/scripts/gallery.json')
+fetch('https://bonesmara.github.io/goshenbw/gallery.json')
 // fetch('../scripts/gallery.json')
   .then(response => response.json())
   .then(data => {
