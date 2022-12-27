@@ -1,5 +1,5 @@
-// fetch('https://bonesmarapong.github.io/goshen/scripts/gallery.json')
-fetch('../scripts/gallery.json')
+fetch('https://github.com/BonesMara/goshenbw/blob/main/scripts/gallery.json')
+// fetch('../scripts/gallery.json')
   .then(response => response.json())
   .then(data => {
     // do something with the JSON data
